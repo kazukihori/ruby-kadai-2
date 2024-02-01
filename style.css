@@ -1,0 +1,698 @@
+/*　ヘッダー　*/
+
+
+.header{
+    position: absolute;
+    width: 100%;
+    
+    
+    
+}
+@media screen and (max-width: 1080px){
+    .header{
+        background-color: #fff;
+        height: 60px;
+        position: fixed;
+        z-index: 16;
+     
+        
+        
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .header{
+        background-color: #fff;
+        height: 51px;
+        position: fixed;
+        
+    }
+    
+}
+.header_container{
+    width: 100%;
+    height: 100px;
+    margin: 0 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+@media screen and (max-width: 1080px) {
+    .header_container{
+        max-width: 100%;
+        margin: 0 20px;
+        height: 60px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+} 
+@media screen and (max-width: 768px){
+    .header_container{
+        max-width: 100%;
+        margin: 0 20px;
+        height: 51px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+}
+@media screen and (max-width:428px) {
+    .header_container{
+        max-width: 100%;
+        margin: 0 20px;
+        height: 60px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+}
+
+
+
+
+
+
+.header_icon_pc  {
+    display: block;
+    width: 180px;
+    height:18px;
+    margin-left: 5px;
+    
+}
+
+
+.header_icon_sp {
+    width: 180px;
+    
+    align-self: center;
+    display: none;
+    height: 18px;
+    
+
+}
+
+.header_icon_pc img:hover{
+    opacity: .8;
+
+}
+
+
+
+@media screen and (max-width:1080px){
+    .header_icon_pc {
+        display: none;
+    } 
+
+    .header_icon_sp {
+        display: block;
+    }
+} 
+
+    
+
+
+
+
+.humbarger_menu{
+    display: none;
+}
+
+
+.humbarger_menu div {
+    width: 25px;
+    height: 3px;
+    background-color:#333;
+    margin: 5px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width:1080px){
+    .humbarger_menu {
+        display: block;
+    
+    }
+}
+@media screen and (max-width:768px) {
+    .humbarger_menu{
+        display: block;
+    }
+}
+
+
+
+.header_container_list{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    max-width: 100%;
+    top: 20px;
+    left: 20sspx;
+    align-items:  center;
+    
+    
+    
+}
+
+.header_list_items{
+    display: flex;
+    align-items: center;
+  
+    
+    
+}
+
+
+    
+
+
+
+
+
+
+
+
+.header_list_item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35px;
+    list-style: none;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
+    text-decoration: none;
+    
+}
+
+@media  screen and (max-width: 1080px){
+    .header_list_item{
+        display: none;
+    }
+}
+
+
+.header_list_item:hover{
+    opacity: .8;
+}
+
+.header_list_item a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.header_list_button{
+    color: #fff;
+    background-color:#f79214 ;
+    display: inline-block;
+    padding: 0 20px; 
+    height: 40px;
+    bottom: 8px;
+    border-radius: 38px;
+    font-size: 12px;
+    border: none;
+
+}
+
+.header_list_button:hover{
+    opacity: .8;
+}
+
+/* メイン　*/
+
+
+
+.main_image{
+
+    background-image: url("./image/top-hero.webp");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+
+@media screen and (max-width:768px) {
+    .main_image{
+        background-image: url("./image/top-hero-sp.jpg2.webp");
+        
+        padding-top: 400px;
+        padding-left: 0;
+        padding-bottom: 35px;
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+.main_container{
+    max-width: 1140px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 12;
+
+}
+
+@media screen and (max-width:768px){
+    .main_container{
+        max-width: none;
+        height: 500px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        
+        
+    }
+    
+}
+
+
+
+
+
+
+
+.main_message_detail{
+    color: #333;
+    font-family: "Lato",sans-serif;
+    font-size: 38px;
+    font-weight: 650;
+    line-height: 55px;
+    top: 10px;
+    left: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    position: absolute;
+}
+
+@media screen and (max-width:768px) {
+    .main_message_detail{
+        position: absolute;
+        font-size: 25px;
+        line-height: 36px;
+        padding: 0;
+        top: 10px;
+        left: 140px;
+        
+
+        
+
+
+
+    }
+    
+}
+
+.main_images{
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    top: 160px;
+    left: 120px;
+    position: absolute;
+
+}
+
+@media screen  and (max-width:768px){
+    .main_images{
+        width: 100%;
+        margin-bottom: 30px;
+        top: 120px;
+        left: 50px;
+
+        
+       
+
+     
+        
+    }
+    
+}
+
+.main_images img{
+    margin-right: 8px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main_images img{
+        margin-right: px;
+
+    }
+    
+}
+
+.image_type_2{
+    width: 40%;
+}
+
+@media screen  and (max-width:768px){
+    .image_type_2{
+        width: 40%;
+    }
+    
+} 
+    
+
+
+
+
+.main_button{
+    color: #fff;
+    background-color:#f79214 ;
+    display: inline-block;
+    border-radius: 38px;
+    font-size: 16px;
+    border: none;
+    width: 500px;
+    padding: 20px 20px;
+    position: absolute;
+    top: 350px;
+    left: 110px;
+
+
+    
+}
+
+@media screen  and (max-width:768px){
+    .main_button{
+        width: 100% !important
+        
+    }
+    .main_button{
+        top: 380px;
+        left: 5px;
+        
+    }
+
+
+    
+}
+
+.main_caption{
+    position: absolute;
+    top: 440px;
+    margin-bottom: 20px;
+}
+
+.main_caption li{
+    list-style: none;
+    color: #a2a2a4;
+    font-size: 12px;
+
+
+}
+
+.main_button:hover{
+    opacity: .8;
+}
+
+.terms_word{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* サブメイン　*/
+
+.sub_main_view{
+    width: 100%;
+    height: auto;
+    background-color: #f79214;
+    padding:20px 20px;
+    
+
+}
+
+@media screen and (max-width:768px) {
+    .sub_main_view{
+        padding: 20px 0;
+    }
+    
+}
+
+.sub_main_container{
+    max-width: 1140px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+@media screen and (max-width: 1025px) {
+    .sub_main_container{
+    max-width: 1140px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .sub_main_container{
+        max-width: none;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    
+}
+
+
+.sub_main_video {
+    width: 50%;
+}
+@media screen and (max-width:1025px) {
+    .sub_main_video{
+        width: 75%
+    }
+}
+@media screen and (max-width:768px){
+    .sub_main_video{
+        width: 100%;
+    }
+
+    
+}
+
+.sub_main_video > video{
+    width: 100%;
+}
+
+.sub_main_rightcontainer{
+    width: 50%;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1025px){
+    .sub_main_rightcontainer{
+     width: 75%;;
+     display: flex;
+     align-items: flex-start;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 32px;
+     margin-bottom: 60px;
+     margin-top: 20px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .sub_main_rightcontainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 30px 10px;
+        position: relative;
+    
+
+    }
+    
+}
+
+
+.sub_main_title {
+    width: 100%;
+    
+}
+
+@media screen and (width:1025px) {
+    .sub_main_title{
+        width: 75%;
+        
+    }
+    
+}
+
+
+
+
+.sub_main_title h2 {
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MSPゴシック","MS PGothic",sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 54px;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 100%;
+
+}
+
+@media screen and (max-width:1025px){
+    .sub_main_title h2{
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .sub_main_title h2{
+        font-size: 33px;
+        line-height: 48px;
+        
+    }
+}
+
+
+
+.sub_main_title h2 span{
+    font-weight: 900;
+    font-size: 40px;
+
+}
+@media screen and (max-width:768px) {
+    .sub_main_title h2 span{
+        letter-spacing: 1px;
+    }
+    
+}
+
+.sub_main_title p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+@media screen and (max-width:1025px) {
+    .sub_main_title p{
+        margin-bottom: 0;
+    }
+    
+}
+
+.sub_main_image img{
+    width: 158px;
+    border: 0;
+    
+}
+
+@media screen and (max-width:1025px) {
+    .sub_main_image {
+       display: block;
+       margin-top: 40px;
+       
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .sub_main_image{
+        display: block;
+        margin-left: 230px;
+    }
+    
+}
+
+
+
+
+
+/*
+.header_icon img{
+    width: 170px;
+    
+}
+
+.header_parent{
+    position: absolute;
+    width: 100%;
+}
+
+.header_containes{
+    position: relative;
+    display: flex;
+    
+
+}
+
+.header_icon{
+    display: block;
+    margin: 30px 60px;
+    width: auto;
+}
+
+.header_lis{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 300px;
+}
+
+.header_list_item a>span {
+    display: block;
+    text-align: center;
+    
+}
+/*
+rantyan to hoppy ha zutto issyo sukohyun KK yade-------
