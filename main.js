@@ -44,7 +44,7 @@ start_button.addEventListener("click", function(){
 
     start_button.disabled = true;
     stop_button.disabled = false;
-    reset_button.disabled = false;
+    reset_button.disabled = true;
     
 
   
