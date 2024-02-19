@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="javakadai2.css">
+    <title>電卓</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div  class="result">0</div>
+        
+        <table>
+          <tbody>
+            <tr>
+              <td><button class= "num_btn one_nine_btn "  data-index-id="7">7</button></td>
+              <td><button class=" num_btn one_nine_btn" data-index-id="8">8</button></td>
+              <td><button class="num_btn one_nine_btn" data-index-id="9">9</button></td>
+              <td><button class="cal_btn" data-index-id="+">+</button></td>
+            </tr>
+            <tr>
+              <td><button class="num_btn one_nine_btn" data-index-id="4">4</button></td>
+              <td><button class="num_btn one_nine_btn" data-index-id="5">5</button></td>
+              <td><button class="num_btn one_nine_btn" data-index-id="6">6</button></td>
+              <td><button class="cal_btn" data-index-id="-">-</button></td>
+            </tr>
+            <tr>
+              <td><button class="num_btn one_nine_btn" data-index-id="1">1</button></td>
+              <td><button class="num_btn one_nine_btn" data-index-id="2">2</button></td>
+              <td><button class="num_btn one_nine_btn" data-index-id="3">3</button></td>
+              <td><button class="cal_btn" data-index-id="*">*</button></td>
+            </tr>
+            <tr>
+              <td><button class="num_btn" data-index-id="0">0</button></td>
+              <td><button class=" zero_btn"  data-index-id="00">00</button></td>
+              <td><button  class=" point_btn" data-index-id=".">.</button></td>
+              <td><button class="cal_btn" data-index-id="/">/</button><td>
+            </tr>
+            <tr>
+              <td colspan="2"><button id="clear_btn" class="num_btn nonusual_button">AC</button></td>
+              <td colspan="2"><button id="equal_btn" class="num_btn nonusual_button">=</button></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+
+
+
+
+    <script src="javakadai2.js"></script>
+  </body>
+</html>
+
